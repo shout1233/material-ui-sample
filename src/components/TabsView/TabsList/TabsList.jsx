@@ -35,6 +35,7 @@ function TabsList(props) {
   const allTabs = mapAllGridsToTabs(allGrids, classes);
 
   const handleChange = (e, newVal) => {
+    // git test 위한 주석
     dispatch(actions.changeTab(newVal));
   };
 
